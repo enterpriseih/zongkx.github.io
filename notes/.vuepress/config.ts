@@ -23,17 +23,33 @@ module.exports = {
   themeConfig: {
     logo: "/favicon.svg",
 
-    repo: "zongkx/vuepress",
+    repo: "zongkx/zongkx.github.io",
     docsDir: "notes",
     docsBranch: "main",
 
     author: "zongkx",
-    authorLink: "https://zxh.io",
+    authorLink: "https://zongkx.icu",
     displayAllHeaders: false,
     navbar: [
       {
         text: "Java",
         link: "/java/"
+      },
+      {
+        text: "DB",
+        link: "/database/"
+      },
+      {
+        text: "JS",
+        link: "/js/"
+      },
+      {
+        text: "OPS",
+        link: "/ops/"
+      },
+      {
+        text: "Practice",
+        link: "/practice/"
       },
       {
         text: "Snippets",
@@ -43,15 +59,41 @@ module.exports = {
     sidebar:{
       '/java/':[
         {
-          title:'11',
           collapsable: false,
           sidebarDepth: 1,
           children: getChildren('./notes/java/')
         }
+      ],
+      '/ops/':[
+        {
+          collapsable: false,
+          sidebarDepth: 1,
+          children: getChildren('./notes/ops/')
+        }
+      ],'/database/':[
+        {
+          collapsable: false,
+          sidebarDepth: 1,
+          children: getChildren('./notes/database/')
+        }
+      ],
+      '/js/':[
+        {
+          collapsable: false,
+          sidebarDepth: 1,
+          children: getChildren('./notes/js/')
+        }
+      ],'/practice/':[
+        {
+          collapsable: false,
+          sidebarDepth: 1,
+          children: getChildren('./notes/practice/')
+        }
       ]
+
     }
   },
-  plugins: [["@vuepress/plugin-search"], ["@renovamen/vuepress-plugin-katex"]],
+  plugins: [["@vuepress/plugin-search"]],
 
   markdown: {
     extractHeaders: {
