@@ -1,1 +1,0 @@
-const e={key:"v-329bf80f",path:"/database/oneservice.html",title:"",lang:"en-US",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:1668155702e3},filePathRelative:"database/oneservice.md"};export{e as data};
