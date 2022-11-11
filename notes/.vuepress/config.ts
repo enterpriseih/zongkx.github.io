@@ -1,6 +1,5 @@
 import { path } from "@vuepress/utils";
 const { getChildren } = require("vuepress-sidebar-atuo")
-import {getChildren1} from './a'
 
 module.exports = {
   title: "raynor",
@@ -24,9 +23,9 @@ module.exports = {
   themeConfig: {
     logo: "/favicon.svg",
 
-    repo: "zongkx/what-if",
+    repo: "zongkx/vuepress",
     docsDir: "notes",
-    docsBranch: "master",
+    docsBranch: "main",
 
     author: "zongkx",
     authorLink: "https://zxh.io",
