@@ -46,7 +46,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: dist
-          cname: zongkx.icu
+          cname: zkx.info
       # # 同步到gitee
       # - name: Sync to Gitee
       #   uses: wearerequired/git-mirror-action@master
