@@ -56,8 +56,8 @@ Heap 表不支持逻辑增量备份，因此如果要对 Heap 表做快照，每
 - _如果该表的使用场景是 OLTP 的，比如有较多的 update 和 delete，查询多是带索引的点查询等，推荐使用 Heap 表。_
 ### AO
  对于有大量 update 和 delete 的 AO 表，同样需要 vacuum 进行维护，不过在 AO 表中， vacuum 需要对 bitmap 进行重置并压缩物理文件，因此通常比 Heap 的 vacuum 要慢。  
-![](../images/%E5%9B%BE%E7%89%87(1).png)
-![](../images/%E5%9B%BE%E7%89%87.png)
+
+![](https://gitee.com/zongkx/pic-go/raw/master/202211111558123.png)
 ```sql
 CREATE TABLE zkx (
   id varchar(200),

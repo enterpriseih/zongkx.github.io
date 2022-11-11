@@ -671,7 +671,7 @@ hystrix.command.default.circuitBreaker.errorThresholdPercentage=50
 
 #### 执行顺序
 
-![](http://39.97.243.43/archives/1#alt=183367737dbf32520936d620.png#crop=0&crop=0&crop=1&crop=1&id=RntLl&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+
 
 #### 服务熔断
 
