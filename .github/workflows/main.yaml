@@ -3,9 +3,9 @@ name: build and deploy VuePress to GitHub Pages
 # 检测 master 分支上的推送和 pr
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
   build-and-deploy-vuepress:
