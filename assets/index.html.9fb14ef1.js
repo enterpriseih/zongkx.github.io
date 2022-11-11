@@ -1,1 +1,0 @@
-const e={key:"v-14c69af4",path:"/java/",title:"Dev",lang:"en-US",frontmatter:{catagory:"Dev",readme:!0},excerpt:"",headers:[],git:{updatedTime:1668145724e3},filePathRelative:"java/README.md"};export{e as data};
