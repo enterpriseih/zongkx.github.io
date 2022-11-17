@@ -76,6 +76,7 @@ profile也可以指定 ·distributionManagement·
     </server>
   </servers>
 ```
+
 ```xml
     <distributionManagement>
         <!-- 两个ID必须与 setting.xml中的<server><id>nexus-releases</id></server>保持一致 -->
@@ -295,5 +296,5 @@ springboot 插件,用于启动springboot
                 <configuration>
                     <skip>true</skip>
                 </configuration>
-            </plugin>
+            </plugin>````
 ```
